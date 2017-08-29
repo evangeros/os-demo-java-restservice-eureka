@@ -1,0 +1,5 @@
+.idea
+.idea/*.*
+target/*.*
+target
+os-demo-java-restservice-eureka.iml

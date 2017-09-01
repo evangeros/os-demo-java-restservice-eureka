@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: os-demo-java-restservice-eureka
+  data:
+    rest:
+      base-path: /api
+
+server:
+  port: 0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: false
+
